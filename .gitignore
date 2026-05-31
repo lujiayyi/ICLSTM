@@ -25,6 +25,7 @@ dist/
 *.nbconvert.ipynb
 *.executed.ipynb
 *_results.png
+*_comparison.png
 MPC/*.txt
 
 # Local IDE files
