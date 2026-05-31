@@ -1,0 +1,33 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Conda
+/miniconda3/
+/anaconda3/
+
+# Jupyter / notebook outputs
+*.nbconvert.ipynb
+MPC/*.txt
+
+# Local IDE files
+.idea/
+.vscode/
+
+# Office temp files
+~$*.pptx
