@@ -11,6 +11,8 @@ Requires: Python 3.11.3, Tensorflow Keras 2.13.0, Pyipopt, Numpy, Sklearn </br>
 * Create and activate the verified local environment with `conda env create -f environment.yml` and `conda activate iclstm-repro` </br>
 * Register the kernel for notebooks with `python -m ipykernel install --user --name iclstm-repro --display-name "Python (iclstm-repro)"` </br>
 * `pyipopt` is no longer available as a normal pip package in this setup, so the repository now uses `ipyopt` plus `MPC/pyipopt.py` as a compatibility layer for the MPC notebooks </br>
+* Run a verified reproduction check with `bash scripts/reproduce_checks.sh` </br>
+* `MPC/mpc_first_principles.ipynb` has been verified to execute end-to-end in this environment; the neural-network MPC notebooks also load and start solving, but they can take noticeably longer on local hardware </br>
 
 ### File description
 * ICLSTM_poster.pdf is the poster version of the paper </br>

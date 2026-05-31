@@ -23,6 +23,7 @@ dist/
 
 # Jupyter / notebook outputs
 *.nbconvert.ipynb
+*.executed.ipynb
 MPC/*.txt
 
 # Local IDE files
